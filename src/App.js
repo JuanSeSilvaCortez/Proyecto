@@ -7,10 +7,10 @@ import {
   Boton,
   MensajeExito,
   MensajeError,
-} from "./elementos/Formularios";
+} from "./js/Formularios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
-import Input from "./componentes/Input";
+import Input from "./components/Input";
 
 const App = () => {
   const [usuario, cambiarUsuario] = useState({ campo: "", valido: null });

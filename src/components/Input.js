@@ -5,7 +5,7 @@ import {
   GrupoInput,
   LeyendaError,
   IconoValidacion,
-} from "./../elementos/Formularios";
+} from "../js/Formularios";
 import {
   faCheckCircle,
   faTimesCircle,
